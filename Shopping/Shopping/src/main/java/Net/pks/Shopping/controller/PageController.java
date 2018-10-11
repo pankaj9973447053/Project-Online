@@ -14,7 +14,6 @@ public class PageController
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("greeting","Welcome to new project");
 		
-		
 		return mv;
 	}
 
